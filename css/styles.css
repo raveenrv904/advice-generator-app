@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Manrope", Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    background-color: hsl(218, 23%, 16%);
+    height: 100vh;
+}
+
+.main {
+    background-color: hsl(217, 19%, 24%);
+    position: absolute;
+    max-width: fit-content;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    padding: 10px 25px 40px 25px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .6);
+}
+
+.main-heading {
+    font-size: 20px;
+    color: hsl(150, 100%, 66%);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 20px;
+}
+
+.quote {
+    color: hsl(193, 38%, 86%);
+    padding: 0 10px;
+}
+
+
+.image {
+    margin-top: 2rem;
+
+}
+
+
+ion-icon {
+    font-size: 64px;
+    position: absolute;
+    bottom: -12.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: hsl(150, 100%, 66%);
+}
+
+footer {
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: #fff;
+    letter-spacing: 1px;
+}
